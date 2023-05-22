@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>Logout</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div class="container">
+            <h1>You have logged out.</h1>
+            <a href="{{url | safe}}">Return to the application</a>
+        </div>
+    </body>
+</html>
